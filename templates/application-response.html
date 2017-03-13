@@ -1,19 +1,27 @@
 <!doctype html>
 <html>
+
+{% extends 'base.html' %}
+
 <head>
-    <title>Application Response</title>
+
+ {% block title %} |Application Response| {% endblock %}
+
 </head>
+
 <body>
 
-<!-- fill this in -->
+ {% block content %}
 
-<!-- <form action="/application-form.html"> -->
 
 "Thank you, {{firstJ}} {{lastJ}}, for applying to be a {{positionJ }}. Your
 minimum salary requirement is {{ "${:,.2f}".format(salaryJ) }}  ."
 
 
 </body>
+
+{% endblock %}
+
 </html>
 
 

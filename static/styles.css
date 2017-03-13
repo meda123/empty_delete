@@ -27,3 +27,20 @@ form select {
     border-left-style: solid;
     }
 
+#rights-reserved{
+   /* color:black;*/
+    position: absolute; 
+    bottom: 5px; 
+    font-size: 20px;
+}
+
+#company-name {
+    color:black;
+    font-size: 60px;
+    font-family:cursive;
+
+}
+
+body {
+    background-image: url("ballu.jpeg");
+}
