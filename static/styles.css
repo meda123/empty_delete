@@ -1,1 +1,29 @@
-/* Your styles can go here. */
+/* Your CSS goes here */
+
+form input{
+    background: pink;
+
+}
+form select {
+    background: pink;    
+}
+
+#submit_button{
+    background: yellow;
+}
+
+#type_bold{
+    font-weight: bold;
+}
+
+#large-box{
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    padding:auto;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    }
+
